@@ -1,0 +1,3 @@
+pipdeptree==0.13.2
+pur==5.2.2
+PySimpleGUI==4.11.0
