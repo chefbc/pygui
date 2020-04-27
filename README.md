@@ -21,6 +21,9 @@ pyenv install -v 3.8.0
 python -V
 
 
+pyenv shell 2.7.17
+
+
 pyenv shell 3.8.0
 # List your installed python versions (The * will indicate your current version)
 pyenv versions
@@ -30,6 +33,18 @@ pyenv global 3.7.5
 pyenv local 3.7.5
 # Uninstall any version
 pyenv uninstall 3.7.5
+
+
+
+# Create virtual environment python2
+pyenv versions
+pyenv shell 2.7.17
+python -V
+pip install virtualenv
+virtualenv env
+source env/bin/activate
+
+
 
 
 # Create our virtual environment named “env”
